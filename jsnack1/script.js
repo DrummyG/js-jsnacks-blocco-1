@@ -5,7 +5,9 @@ const testo = document.getElementById('app')
 let condizione = false
 let contatore = 0
 bottone.addEventListener('click', function(){
-    while(condizione == false && contatore<100){
+    let condizione = false
+    let contatore = 0
+    while(condizione == false && contatore < 20){
         if(invito.value === invitati[contatore]){
             testo.innerHTML = 'Benvenuto alla Festa'
             condizione = true
