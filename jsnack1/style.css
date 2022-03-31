@@ -1,0 +1,14 @@
+body{
+    background-color: coral;
+}
+
+form{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+#app{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-size: 30px;
+}

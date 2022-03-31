@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(145, 58, 58);
+}
+
+input{
+    display: block;
+}
+
+#app{
+    font-size: larger;
+    color: white;
+}
